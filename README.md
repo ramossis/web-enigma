@@ -1,11 +1,12 @@
 # web-enigma
 
-## Project setup
+## Project setup para instalar el proyecto
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development para ejecutar proyecto
+### OJO!! tener instalado vue-cli
 ```
 npm run serve
 ```
