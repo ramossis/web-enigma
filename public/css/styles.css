@@ -1,0 +1,53 @@
+   /* Establecer la imagen de fondo */
+   body {
+    font-family: 'Roboto',sans-serif;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: transparent !important;
+    border-bottom: 2px solid white;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 19px;
+    margin-right:200px;
+    flex: 1; /* Distribuye el espacio disponible de manera uniforme */
+    text-align: center; /* Tamaño de letra para los enlaces */
+}
+.navbar-nav .nav-link:hover {
+    color: #fff;
+    background: rgb(202,218,203);
+    background: linear-gradient(0deg, rgba(202,218,203,1) 26%, rgba(64,180,95,1) 95%);
+}
+.navbar-img{
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-center-logo{
+    margin: 200px;
+}
+.feature {
+    background-color: #40b45f;
+    color: #fff;
+    padding: 50px 0;
+}
+.cta {
+    background-color: #54d72c;
+    padding: 100px 0;
+    text-align: center;
+}
+.footer {
+    background-color: #33b6ab;
+    color: #fff;
+    padding: 50px 0;
+}
